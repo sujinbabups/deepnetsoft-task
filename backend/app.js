@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(
   cors({ 
-    origin: "https://deepnetsoft-task.vercel.app/",
+    origin: ['https://deepnetsoft-task.vercel.app'],
   })
 );
 
